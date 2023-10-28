@@ -7,9 +7,9 @@
 
 
 const areaOrPerimeter = (l, w) => {
-    return console.log(l === w ? l * l : 2*(l * w))
+    return console.log(l === w ? l * l : 2 * (l * w))
 }
 
-areaOrPerimeter(6,10)
-areaOrPerimeter(20,20)
-areaOrPerimeter(62,10)
+areaOrPerimeter(6, 10)
+areaOrPerimeter(20, 20)
+areaOrPerimeter(62, 10)

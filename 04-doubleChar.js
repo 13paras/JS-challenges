@@ -5,11 +5,11 @@
 
 function doubleChar(str) {
     let string = str.split('');
- const emptyString = [ ]
- string.forEach( e => {
-   const word = e.repeat(2);
-   console.log(word) 
-})
+    const emptyString = []
+    string.forEach(e => {
+        const word = e.repeat(2);
+        console.log(word)
+    })
 }
 
 doubleChar('abcd')
